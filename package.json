@@ -16,7 +16,7 @@
     "devDependencies": {
         "@playwright/test": "^1.28.1",
         "@sveltejs/adapter-auto": "next",
-        "@sveltejs/kit": "next",
+        "@sveltejs/kit": "^1.24.0",
         "@typescript-eslint/eslint-plugin": "^5.45.0",
         "@typescript-eslint/parser": "^5.45.0",
         "autoprefixer": "^10.4.7",
@@ -37,5 +37,11 @@
         "vite": "^4.0.0",
         "vitest": "^0.25.3"
     },
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "@supabase/auth-helpers-sveltekit": "^0.10.2",
+        "@supabase/auth-ui-shared": "^0.1.6",
+        "@supabase/auth-ui-svelte": "^0.2.3",
+        "@supabase/supabase-js": "^2.33.1"
+    }
 }
